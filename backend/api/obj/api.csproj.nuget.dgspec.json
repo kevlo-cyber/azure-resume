@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lopez\\GitProjects\\azure-resume\\backend\\api\\api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lopez\\GitProjects\\azure-resume\\backend\\api\\api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lopez\\GitProjects\\azure-resume\\backend\\api\\api.csproj",
+        "projectName": "api",
+        "projectPath": "C:\\Users\\lopez\\GitProjects\\azure-resume\\backend\\api\\api.csproj",
+        "packagesPath": "C:\\Users\\lopez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lopez\\GitProjects\\azure-resume\\backend\\api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lopez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.ApplicationInsights.WorkerService": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker": {
+              "target": "Package",
+              "version": "[1.20.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.ApplicationInsights": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.CosmosDB": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Azure.Functions.Worker.Sdk": {
+              "target": "Package",
+              "version": "[1.16.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
